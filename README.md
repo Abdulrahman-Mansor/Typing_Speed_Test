@@ -1,4 +1,4 @@
-##Clone and open it in NetBeans
+# ***Clone and open it in NetBeans***
 
 1. Open your terminal and navigate to the directory where you want to clone the repository.
 2. Copy the URL of the repository you want to clone.
