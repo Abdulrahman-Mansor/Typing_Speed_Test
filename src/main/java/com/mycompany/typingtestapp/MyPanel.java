@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 public class MyPanel extends JPanel {
     private Font font = new Font(null, Font.PLAIN, 25);//Arial
     Vector<Letter> charList;
-    String paragraph = "Was beginning to get very tired of sitting bWy her sister on the bank, and of having nothing to do:";
+    String paragraph = "Hello, everyone! I'm excited to announce my new project, TypingSpeed! I developed this project using Java Programming Language.";
     Graphics2D gg;
    
     int pointer = 0;
