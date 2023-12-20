@@ -70,6 +70,7 @@ public class UpperPanel extends JPanel implements ActionListener  {
         super.paint(g);
         gg = (Graphics2D) g;
         gg.setPaint(new Color(0, 153, 153));
+        gg.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 //        if(r==0)gg.fillRoundRect(0, 0, getWidth(), getHeight(), 50, 50);
 //        else if(r<17){
 //            gg.fillRect(getWidth() / 2 - r * 30, 0, 50 + 2*r * 30, getHeight());
