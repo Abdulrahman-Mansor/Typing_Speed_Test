@@ -8,6 +8,7 @@ import java.awt.FontMetrics;
 import java.awt.GradientPaint;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 import java.util.Vector;
 
 import javax.swing.JPanel;
@@ -66,6 +67,7 @@ public class MyPanel extends JPanel {
     public void paint(Graphics g) {
 //        super.paint(g);
         gg = (Graphics2D) g;
+        gg.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         gg.setFont(font);
         GradientPaint gradient = new GradientPaint(0, 0, Color.decode("#5E25A8"), getWidth(), getHeight(), Color.decode("#d74eff"));
         gg.setPaint(gradient);
